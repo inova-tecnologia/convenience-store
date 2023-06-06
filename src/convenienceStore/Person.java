@@ -1,4 +1,4 @@
-package groceryStore;
+package convenienceStore;
 import java.util.Date;
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package groceryStore;
+package convenienceStore;
 
 public class Address {
 	
@@ -8,7 +8,7 @@ public class Address {
 	private String neighborhood;
 	private String street;
 	private Integer number;
-	private String complement;
+	private String complement;   
 	
 	public Address(Integer zipCode, String state, String city, String neighborhood, String street,
 			Integer number, String complement){

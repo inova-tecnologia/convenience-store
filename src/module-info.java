@@ -5,5 +5,5 @@
  * @author carlos.leal
  *
  */
-module groceryStore {
+module convenience_store {
 }
