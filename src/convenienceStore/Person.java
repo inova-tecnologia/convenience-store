@@ -4,13 +4,13 @@ import java.util.UUID;
 
 public class Person {
 
-	protected String id = UUID.randomUUID().toString();
-	protected int socialSecurityNumber;
-	protected String name;
-	protected Date birthDate;   
-	protected Address address;
-	protected String phoneNumber;
-	protected String mail;   
+    protected String id = UUID.randomUUID().toString();
+    protected int socialSecurityNumber;
+    protected String name;
+    protected Date birthDate;   
+    protected Address address;
+    protected String phoneNumber;
+    protected String mail;   
     
     public Person(int socialSecurityNumber, String name, Date birthDate, Address address, String phoneNumber, String mail) {
         this.id = UUID.randomUUID().toString();
