@@ -2,8 +2,8 @@ package convenienceStore;
 
 public class Sale {
 	
-	private String[] productList;
-	private int[] quantity;    
+    private String[] productList;
+    private int[] quantity;    
 	   
     public String[] getProductList() {
         return this.productList;
