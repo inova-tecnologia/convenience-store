@@ -1,5 +1,3 @@
 package convenienceStore;
 
-public class JobTitle {
-    
-}
+public class JobTitle {}
