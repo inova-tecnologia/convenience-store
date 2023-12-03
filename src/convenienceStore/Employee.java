@@ -3,12 +3,10 @@ package convenienceStore;
 import java.util.Date;
 
 public class Employee extends Person {
-
 	private Double salary;
 	private JobTitle jobTitle;
 	
-	public Employee(int socialSecurityNumber, String name, Date birthDate, Address address, String phoneNumber,
-			String mail, Double salary, JobTitle jobTitle) {
+	public Employee(int socialSecurityNumber, String name, Date birthDate, Address address, String phoneNumber, String mail, Double salary, JobTitle jobTitle) {
 		super(socialSecurityNumber, name, birthDate, address, phoneNumber, mail);
 		this.salary = salary;
 		this.jobTitle = jobTitle;
@@ -29,6 +27,4 @@ public class Employee extends Person {
 	public void setJobTitle(JobTitle jobTitle) {
 		this.jobTitle = jobTitle;
 	}
-
 }
-
