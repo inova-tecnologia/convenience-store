@@ -1,7 +1,6 @@
 package convenienceStore;
 
-public class Product {
-	  
+public class Product {  
 	private String name;
 	private double price;
 	private String barcode;
@@ -45,5 +44,4 @@ public class Product {
 	public void setStockQuantity(int stockQuantity) {
 		this.stockQuantity = stockQuantity;
 	}
-	
 }
