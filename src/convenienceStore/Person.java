@@ -1,9 +1,9 @@
 package convenienceStore;
+
 import java.util.Date;
 import java.util.UUID;
 
 public class Person {
-
     protected String id = UUID.randomUUID().toString();
     protected int socialSecurityNumber;
     protected String name;
@@ -72,6 +72,5 @@ public class Person {
     
     public void setMail(String mail) {
         this.mail = mail;
-    }
-       
+    }   
 }
