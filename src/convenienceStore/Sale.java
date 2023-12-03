@@ -1,7 +1,6 @@
 package convenienceStore;
 
-public class Sale {
-	
+public class Sale {	
     private String[] productList;
     private int[] quantity;    
 	   
@@ -20,5 +19,4 @@ public class Sale {
     public void setQuantity(int[] quantity) {
         this.quantity = quantity;
     }
-	
 }
